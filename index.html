@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<script src='function.js'></script>
+	<script src='scene.js'></script>
+</head>
+<style>
+	:root{
+		background: #666666;
+	}
+	div{
+		border: 1px solid rgba(0,0,0,0);
+		width: 28px;
+		height: 28px;
+		float: left;
+		
+	}
+	.scene{
+		border: 1px solid #fff;
+		box-shadow: 0px 0px 20px #ADFF2F;
+		width: 600px;
+		height: 600px;
+		margin: 10px 200px;
+		background: honeydew;
+		background: url(1.jpg) no-repeat;
+		background-size: cover;
+
+	
+	}
+	.she{
+		background: dodgerblue;
+		border-radius: 14px 14px 14px 14px;
+	}
+	.food{
+		background: #DD4B39;
+		border-radius: 12px 12px 12px 12px;
+	}
+	.name{
+		position: absolute;
+		top: 100px;
+		right: 200px;
+		/*text-align: center;*/
+		width: 200px;
+		height: 500px;
+		color: #fff;
+		font-size: 60px;
+		text-shadow: 0px 0px 10px yellowgreen;
+		font-weight: 700;
+	}
+	.name input{
+		width: 200px;
+		height: 50px;
+		background: #FFFFFF;
+		border: 5px solid #F0FFF0;
+	}
+</style>
+<body>
+	<div class="scene"></div>
+	<div class="name">
+		贪吃蛇
+		<br />
+		<br />
+
+		<input type="button" name="do" id="do" value="开始" />
+		<br />
+		<input type="button" name="" id="chong" value="再来一局" />
+		<br />
+		<input type="button" id="close" value="退出游戏" />
+		<br />
+
+	</div>
+</body>
+</html>
